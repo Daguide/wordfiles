@@ -4,7 +4,7 @@
 /Indent Strings = "ELSE" "THEN" "DO"
 /Unindent Strings = "END" "ENDIF" "ENDFOR" "ENSELECT" "ENDWHILE"
 
-/C1 "Statements"
+/C1"Statements"
 ABORT ATTACH ABOUT ALONG AWAY AXIS 
 BEGIN
 CANCEL CANCEL CLOSE CLOSE CONDITION
@@ -27,7 +27,7 @@ UNHOLD UNTIL USING
 VIA
 WAIT WHEN WITH WHILE WRITE
 
-/C2 "Built-In Functions and Procedures"
+/C2"Built-In Functions and Procedures"
 ABS ACOS ARRAY_LEN ASIN ATAN2 AVL_POS_NUM ACT_SCREEN ADD_DICT ATT_WINDOW_D ATT_WINDOW_S 
 APPROACH ABORT_TASK APPEND_NODE ADD_BYNAMEPC ADD_INTPC ADD_REALPC ADD_STRINGPC 
 APPEND_QUEUE
@@ -66,7 +66,7 @@ UNINIT UNPOS UNLOCK_GROUP
 VAR_INFO VAR_LIST VOL_SPACE
 WRITE_DICT WRITE_DICT_V
 
-/C3 "Data Types"
+/C3"Data Types"
 ARRAY
 BOOLEAN BYTE
 COMMON_ASSOC CONFIG
@@ -81,19 +81,19 @@ SHORT STD_PTH_NODE STRING
 VECTOR
 XYZWPR XYZWPREXT
 
-/C4 "Directives"
+/C4"Directives"
 %ALPHABETIZE %CMOSVARS %COMMENT %CRTDEVICE %DEFGROUP %DELAY %ENVIRONMENT %INCLUDE
 %LOCKGROUP %NOABORT %NOBUSYLAMP %NOLOCKGROUP %NOPAUSE %NOPAUSESHFT %PRIORITY %STACKSIZE
 %TIMESLICE %TPMOTION 
 
-/C5 "Actions, Conditions"
+/C5"Actions, Conditions"
 CONTINUE
 NOABORT NOMESSAGE NOPAUSE 
 Port_Id
 SEMAPHORE
 UNPAUSE
 
-/C6 "Predefinied Identifier and Value"
+/C6"Predefinied Identifier and Value"
 AESWORLD
 CIRCULAR COARSE
 FALSE FINE
@@ -107,7 +107,7 @@ TRUE
 VARDECEL
 WRISTJOINT
 
-/C7 "Port and File Predefinied Identifier"
+/C7"Port and File Predefinied Identifier"
 AIN AOUT
 CRTERROR CRTFUNC CRTSTATUS CRTPROMPT
 DIN DOUT
@@ -119,11 +119,11 @@ RDI RDO
 VIS_MONITOR
 WDI WDOUT
 
-/C8 "System Variables"
+/C8"System Variables"
 $motype $speed $termtype $rotspeed $utool $uframe $nilp $mnuframenum $mnutoolnum $group
 $mnuframe $mnutool $mor_grp $mcr.$genoverride $deceltol
 
-/C9 "Operators, Item CR"
+/C9"Operators, Item CR"
 AND
 CR
 DIV
